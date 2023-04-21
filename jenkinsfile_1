@@ -1,0 +1,25 @@
+node{
+    def mavenHome = tool name: 'Maven-3.9.0'
+    stage('1.CodeClone'){git 'https://github.com/AlfredNougi/maven-web-application'}
+    stage('2.MavenBuild'){sh "${mavenHome}/bin/mvn package" }
+    stage('3.CodeQualityAnalysis'){sh "${mavenHome}/bin/mvn sonar:sonar"}
+    stage('4.Upload2Nexus'){sh "${mavenHome}/bin/mvn deploy"}
+    
+    
+   stage('5.UAT'){
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat-Credentials', path: '', url: 'https://tomcat.babem.dev/')], contextPath: null, war: 'target/*war'
+    }
+     
+    stage('6.ManualApproval'){
+        sh "echo 'resdy to review'"
+        timeout(time:5, unit:'HOURS'){input message: ' Application is ready for deployment, please review and approve'}
+    }
+    
+    stage('7.Deploy2Prod'){
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat-Credentials', path: '', url: 'https://tomcat.babem.dev/')], contextPath: null, war: 'target/*war'
+    }
+    /*
+    stage('8.EmailNotification'){}*/
+    
+    
+}
