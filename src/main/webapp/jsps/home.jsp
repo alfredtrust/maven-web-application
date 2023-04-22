@@ -12,7 +12,6 @@
  	<source src="/vidéos/otentik.mp4" type=video/mp4>
 </video>
 	
-<p align=center><small>Copyrights 2023 by <a href="http://mylandmark.tech/">Ôtentik&proud</a> </small></p>
 <footer>
 <p align=center><small>Copyrights 2023 by <a href="http://mylandmark.tech/">Ôtentik&proud</a> </small></p>
 </footer>
