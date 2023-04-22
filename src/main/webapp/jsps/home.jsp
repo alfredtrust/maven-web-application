@@ -14,7 +14,7 @@
 
 <body>
 
- <video src="./otentik.mp4" id="video"  autoplay muted >  </video>
+ <video src="./main/webapp/videos/otentik.mp4" id="video"  autoplay muted >  </video>
 
    
 
