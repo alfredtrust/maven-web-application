@@ -8,7 +8,7 @@
 </head>
 </head>
 <body>
-<video width="320" height="240" controls autoplay>
+<video width="600" height="400" autoplay>
  	<source src="/vidéos/otentik.mp4" type=video/mp4>
 </video>
 	
