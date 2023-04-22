@@ -4,36 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MylandmarkTech.com- Home Page</title>
-<link href="images/log4.png" rel="icon">
+<title>Ôtentik&proud- Home Page</title>
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Landmark Technologies.</h1>
-<h2 align="center"> We are supporting the Ebay Black Friday Project.
-	Landmark Technologies is a software development company. 
-	Class26 will run from October 2, 2021.
-	The shout of the King Jesus is in our midst. HE IS ALFRED SUCCESS ACCESS KEY</h2>
-<hr>
-<div style="text-align: center;">
-	<span>
-		<img src="images/mylandmarklogo.jpg" alt="" width="200">
-	</span>
-	<span style="font-weight: bold;">
-		Landmark Technology, 
-		Toronto, Ontario, Canada
-		+1 437 215 2483,
-		mylandmarktech@gmail.com
-		<br>
-		<a href="mailto:mylandmarktech@gmail.com">Mail to Landmark Technologies</a>
-	</span>
-</div>
-<hr>
-	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
-<hr>
-<hr>
-<p align=center>Landmark Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2019 by <a href="http://mylandmark.tech/">Landmark Technologies</a> </small></p>
-
+<video width="320" height="240" controls autoplay>
+ 	<source src="/vidéos/otentik.mp4" type=video/mp4>
+</video>
+	
+<p align=center><small>Copyrights 2023 by <a href="http://mylandmark.tech/">Ôtentik&proud</a> </small></p>
+<footer>
+<p align=center><small>Copyrights 2023 by <a href="http://mylandmark.tech/">Ôtentik&proud</a> </small></p>
+</footer>
 </body>
 </html>
